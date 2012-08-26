@@ -1,0 +1,22 @@
+Getting set up with Heroku:
+https://devcenter.heroku.com/articles/django
+
+PostgreSQL Cheat Sheat for Django:
+http://od-eon.com/blogs/calvin/postgresql-cheat-sheet-beginners/
+
+Set up Virtual Environment:
+  virtualenv venv --distribute
+  pip install -r ./requirements.txt
+
+Set up Postgres Database:
+  createuser -U postgres zappsocial -P
+  (enter password) - zappsocial
+  (Superuser?) - n
+  (Allo Create DB?) - y
+  (Create Roles?) - n
+
+  createdb -U zappsocial -E utf8 -O zappsocial zappsocial -T template0
+
+Define the DATABASE_URL: (can be added to activate script)
+  export DATABASE_URL='postgres://zappsocial:zappsocial@localhost:5432/zappsocial'
+
