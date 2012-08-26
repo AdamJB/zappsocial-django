@@ -12,11 +12,10 @@ ADMINS = (
 
 MANAGERS = ADMINS
 
+import dj_database_url
+
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': '%s/../db/zappsocial.db' % PROJECT_ROOT,
-    }
+  'default': dj_database_url.config(default='postgres://localhost')
 }
 
 TIME_ZONE = 'America/New_York'
