@@ -1,0 +1,391 @@
+[
+  {
+    "pk": 1,
+    "model": "auth.user",
+    "fields": {
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "is_active": true,
+      "is_superuser": true,
+      "is_staff": true,
+      "last_login": "2012-08-26T21:09:24.253Z",
+      "groups": [],
+      "user_permissions": [],
+      "password": "pbkdf2_sha256$10000$ZYbgbKeqFNiG$zYM88B4K8MlGRH4tx8qqK0uHraE/POklhQRfLOd1xDA=",
+      "email": "a@b.com",
+      "date_joined": "2012-08-26T21:08:30.773Z"
+    }
+  },
+  {
+    "pk": 1,
+    "model": "quiz.genre",
+    "fields": {
+      "name": "Crime"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "quiz.genre",
+    "fields": {
+      "name": "Sci-Fi"
+    }
+  },
+  {
+    "pk": 1,
+    "model": "quiz.show",
+    "fields": {
+      "genre": [
+        1
+      ],
+      "title": "Dexter"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "quiz.show",
+    "fields": {
+      "genre": [
+        2
+      ],
+      "title": "Doctor Who"
+    }
+  },
+  {
+    "pk": 1,
+    "model": "quiz.episode",
+    "fields": {
+      "season": 1,
+      "description": "",
+      "episode_number": 1,
+      "name": "Dexter",
+      "show": 1
+    }
+  },
+  {
+    "pk": 2,
+    "model": "quiz.episode",
+    "fields": {
+      "season": 1,
+      "description": "",
+      "episode_number": 2,
+      "name": "Crocadile",
+      "show": 1
+    }
+  },
+  {
+    "pk": 3,
+    "model": "quiz.episode",
+    "fields": {
+      "season": 1,
+      "description": "",
+      "episode_number": 3,
+      "name": "Popping Cherry",
+      "show": 1
+    }
+  },
+  {
+    "pk": 4,
+    "model": "quiz.episode",
+    "fields": {
+      "season": 1,
+      "description": "",
+      "episode_number": 4,
+      "name": "Let's Give the Boy a Hand",
+      "show": 1
+    }
+  },
+  {
+    "pk": 5,
+    "model": "quiz.episode",
+    "fields": {
+      "season": 1,
+      "description": "",
+      "episode_number": 5,
+      "name": "Love American Style",
+      "show": 1
+    }
+  },
+  {
+    "pk": 6,
+    "model": "quiz.episode",
+    "fields": {
+      "season": 1,
+      "description": "",
+      "episode_number": 6,
+      "name": "Return to Sender",
+      "show": 1
+    }
+  },
+  {
+    "pk": 7,
+    "model": "quiz.episode",
+    "fields": {
+      "season": 1,
+      "description": "",
+      "episode_number": 7,
+      "name": "Circle of Friends",
+      "show": 1
+    }
+  },
+  {
+    "pk": 8,
+    "model": "quiz.episode",
+    "fields": {
+      "season": 1,
+      "description": "",
+      "episode_number": 8,
+      "name": "Shrink Wrap",
+      "show": 1
+    }
+  },
+  {
+    "pk": 9,
+    "model": "quiz.episode",
+    "fields": {
+      "season": 1,
+      "description": "",
+      "episode_number": 9,
+      "name": "Father Knows Best",
+      "show": 1
+    }
+  },
+  {
+    "pk": 10,
+    "model": "quiz.episode",
+    "fields": {
+      "season": 1,
+      "description": "",
+      "episode_number": 10,
+      "name": "Seeing Red",
+      "show": 1
+    }
+  },
+  {
+    "pk": 11,
+    "model": "quiz.episode",
+    "fields": {
+      "season": 1,
+      "description": "",
+      "episode_number": 11,
+      "name": "Truth Be Told",
+      "show": 1
+    }
+  },
+  {
+    "pk": 12,
+    "model": "quiz.episode",
+    "fields": {
+      "season": 1,
+      "description": "",
+      "episode_number": 12,
+      "name": "Born Free",
+      "show": 1
+    }
+  },
+  {
+    "pk": 13,
+    "model": "quiz.episode",
+    "fields": {
+      "season": 1,
+      "description": "",
+      "episode_number": 1,
+      "name": "Rose",
+      "show": 2
+    }
+  },
+  {
+    "pk": 14,
+    "model": "quiz.episode",
+    "fields": {
+      "season": 1,
+      "description": "",
+      "episode_number": 2,
+      "name": "The End of the World",
+      "show": 2
+    }
+  },
+  {
+    "pk": 15,
+    "model": "quiz.episode",
+    "fields": {
+      "season": 1,
+      "description": "",
+      "episode_number": 3,
+      "name": "The Unqulet Dead",
+      "show": 2
+    }
+  },
+  {
+    "pk": 16,
+    "model": "quiz.episode",
+    "fields": {
+      "season": 1,
+      "description": "",
+      "episode_number": 4,
+      "name": "Aliens of London",
+      "show": 2
+    }
+  },
+  {
+    "pk": 17,
+    "model": "quiz.episode",
+    "fields": {
+      "season": 1,
+      "description": "",
+      "episode_number": 5,
+      "name": "World War Three",
+      "show": 2
+    }
+  },
+  {
+    "pk": 1,
+    "model": "quiz.question",
+    "fields": {
+      "owner": 1,
+      "episode": 1,
+      "question": "According to Dexter, what never helped anybody?",
+      "show": 1
+    }
+  },
+  {
+    "pk": 2,
+    "model": "quiz.question",
+    "fields": {
+      "owner": 1,
+      "episode": 13,
+      "question": "What is the name of the first episode?",
+      "show": 2
+    }
+  },
+  {
+    "pk": 3,
+    "model": "quiz.question",
+    "fields": {
+      "owner": 1,
+      "episode": 1,
+      "question": "What is the name of Doctor Who's ship?",
+      "show": 2
+    }
+  },
+  {
+    "pk": 1,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 1,
+      "choice": "Claims of innocence"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 1,
+      "choice": "Please for Mercy"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 1,
+      "choice": "Prayer"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 1,
+      "choice": "Screaming"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 2,
+      "choice": "Rose"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 2,
+      "choice": "New Earth"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 2,
+      "choice": "Smith and Jones"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 2,
+      "choice": "Partners in Crime"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 3,
+      "choice": "Firefly"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 3,
+      "choice": "Enterprise"
+    }
+  },
+  {
+    "pk": 11,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 3,
+      "choice": "Tardis"
+    }
+  },
+  {
+    "pk": 12,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 3,
+      "choice": "Pandora"
+    }
+  },
+  {
+    "pk": 1,
+    "model": "quiz.answer",
+    "fields": {
+      "question": 1,
+      "choice": 3
+    }
+  },
+  {
+    "pk": 2,
+    "model": "quiz.answer",
+    "fields": {
+      "question": 2,
+      "choice": 5
+    }
+  },
+  {
+    "pk": 3,
+    "model": "quiz.answer",
+    "fields": {
+      "question": 3,
+      "choice": 11
+    }
+  }
+]
