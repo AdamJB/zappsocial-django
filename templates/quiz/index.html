@@ -7,7 +7,7 @@
 <h2>Generate Quiz by Show</h2>
 
 {% for show in shows_list %}
-  <h3><a href="/quiz/generate/?type=show&id={{ show.pk }}">{{ show.title }}</a></h3>
+  <h3><a href="/quiz/generate/show/{{ show.pk }}">{{ show.title }}</a></h3>
 {% endfor %}
 
 {% endblock %}
