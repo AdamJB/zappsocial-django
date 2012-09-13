@@ -32,6 +32,27 @@
     }
   },
   {
+    "pk": 3,
+    "model": "quiz.genre",
+    "fields": {
+      "name": "Reality"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "quiz.genre",
+    "fields": {
+      "name": "Drama"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "quiz.genre",
+    "fields": {
+      "name": "Sitcom"
+    }
+  },
+  {
     "pk": 1,
     "model": "quiz.show",
     "fields": {
@@ -49,6 +70,26 @@
         2
       ],
       "title": "Doctor Who"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "quiz.show",
+    "fields": {
+      "genre": [
+        3
+      ],
+      "title": "Jersey Shore"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "quiz.show",
+    "fields": {
+      "genre": [
+        3
+      ],
+      "title": "Real Housewives of New Jersey"
     }
   },
   {
@@ -239,6 +280,226 @@
     }
   },
   {
+    "pk": 18,
+    "model": "quiz.episode",
+    "fields": {
+      "season": 5,
+      "description": "",
+      "episode_number": 1,
+      "name": "Hurricane Situation",
+      "show": 3
+    }
+  },
+  {
+    "pk": 19,
+    "model": "quiz.episode",
+    "fields": {
+      "season": 5,
+      "description": "",
+      "episode_number": 2,
+      "name": "One Man Down",
+      "show": 3
+    }
+  },
+  {
+    "pk": 20,
+    "model": "quiz.episode",
+    "fields": {
+      "season": 5,
+      "description": "",
+      "episode_number": 3,
+      "name": "Dropping Like Flies",
+      "show": 3
+    }
+  },
+  {
+    "pk": 21,
+    "model": "quiz.episode",
+    "fields": {
+      "season": 5,
+      "description": "",
+      "episode_number": 4,
+      "name": "Free Vinny",
+      "show": 3
+    }
+  },
+  {
+    "pk": 22,
+    "model": "quiz.episode",
+    "fields": {
+      "season": 5,
+      "description": "",
+      "episode_number": 5,
+      "name": "Nothing But Nice",
+      "show": 3
+    }
+  },
+  {
+    "pk": 23,
+    "model": "quiz.episode",
+    "fields": {
+      "season": 5,
+      "description": "",
+      "episode_number": 6,
+      "name": "The Follow Game",
+      "show": 3
+    }
+  },
+  {
+    "pk": 24,
+    "model": "quiz.episode",
+    "fields": {
+      "season": 5,
+      "description": "",
+      "episode_number": 7,
+      "name": "Love at the Jersey Shore",
+      "show": 3
+    }
+  },
+  {
+    "pk": 25,
+    "model": "quiz.episode",
+    "fields": {
+      "season": 5,
+      "description": "",
+      "episode_number": 8,
+      "name": "Sharp Objects",
+      "show": 3
+    }
+  },
+  {
+    "pk": 26,
+    "model": "quiz.episode",
+    "fields": {
+      "season": 5,
+      "description": "",
+      "episode_number": 9,
+      "name": "The Truth Will Set You Free",
+      "show": 3
+    }
+  },
+  {
+    "pk": 27,
+    "model": "quiz.episode",
+    "fields": {
+      "season": 5,
+      "description": "",
+      "episode_number": 10,
+      "name": "One Meatball Stands Alone",
+      "show": 3
+    }
+  },
+  {
+    "pk": 28,
+    "model": "quiz.episode",
+    "fields": {
+      "season": 5,
+      "description": "",
+      "episode_number": 11,
+      "name": "We Are Family",
+      "show": 3
+    }
+  },
+  {
+    "pk": 29,
+    "model": "quiz.episode",
+    "fields": {
+      "season": 4,
+      "description": "",
+      "episode_number": 1,
+      "name": "High Tide, Low Blow",
+      "show": 4
+    }
+  },
+  {
+    "pk": 30,
+    "model": "quiz.episode",
+    "fields": {
+      "season": 4,
+      "description": "",
+      "episode_number": 2,
+      "name": "Poker Face",
+      "show": 4
+    }
+  },
+  {
+    "pk": 31,
+    "model": "quiz.episode",
+    "fields": {
+      "season": 4,
+      "description": "",
+      "episode_number": 3,
+      "name": "Third Eye Blind",
+      "show": 4
+    }
+  },
+  {
+    "pk": 32,
+    "model": "quiz.episode",
+    "fields": {
+      "season": 4,
+      "description": "",
+      "episode_number": 4,
+      "name": "Drowning Pool",
+      "show": 4
+    }
+  },
+  {
+    "pk": 33,
+    "model": "quiz.episode",
+    "fields": {
+      "season": 4,
+      "description": "",
+      "episode_number": 5,
+      "name": "Spoiled Sports",
+      "show": 4
+    }
+  },
+  {
+    "pk": 34,
+    "model": "quiz.episode",
+    "fields": {
+      "season": 4,
+      "description": "",
+      "episode_number": 6,
+      "name": "Uncivil Union",
+      "show": 4
+    }
+  },
+  {
+    "pk": 35,
+    "model": "quiz.episode",
+    "fields": {
+      "season": 4,
+      "description": "",
+      "episode_number": 7,
+      "name": "True Love, True Lies",
+      "show": 4
+    }
+  },
+  {
+    "pk": 36,
+    "model": "quiz.episode",
+    "fields": {
+      "season": 4,
+      "description": "",
+      "episode_number": 8,
+      "name": "Best Friends for Never",
+      "show": 4
+    }
+  },
+  {
+    "pk": 37,
+    "model": "quiz.episode",
+    "fields": {
+      "season": 4,
+      "description": "",
+      "episode_number": 9,
+      "name": "Public Display of Rejection",
+      "show": 4
+    }
+  },
+  {
     "pk": 1,
     "model": "quiz.question",
     "fields": {
@@ -266,6 +527,106 @@
       "episode": 1,
       "question": "What is the name of Doctor Who's ship?",
       "show": 2
+    }
+  },
+  {
+    "pk": 4,
+    "model": "quiz.question",
+    "fields": {
+      "owner": 1,
+      "episode": 18,
+      "question": "What is Snooki's real name?",
+      "show": 3
+    }
+  },
+  {
+    "pk": 5,
+    "model": "quiz.question",
+    "fields": {
+      "owner": 1,
+      "episode": 18,
+      "question": "Where are the housemates returning from?",
+      "show": 3
+    }
+  },
+  {
+    "pk": 6,
+    "model": "quiz.question",
+    "fields": {
+      "owner": 1,
+      "episode": 18,
+      "question": "What's the name of Mike's friend?",
+      "show": 3
+    }
+  },
+  {
+    "pk": 7,
+    "model": "quiz.question",
+    "fields": {
+      "owner": 1,
+      "episode": 18,
+      "question": "What is the situation claiming he and Snookie did?",
+      "show": 3
+    }
+  },
+  {
+    "pk": 8,
+    "model": "quiz.question",
+    "fields": {
+      "owner": 1,
+      "episode": 18,
+      "question": "What is Vinny drinking while watching the fight?",
+      "show": 3
+    }
+  },
+  {
+    "pk": 9,
+    "model": "quiz.question",
+    "fields": {
+      "owner": 1,
+      "episode": 18,
+      "question": "What kind of sneakers is Pauly wearing",
+      "show": 3
+    }
+  },
+  {
+    "pk": 10,
+    "model": "quiz.question",
+    "fields": {
+      "owner": 1,
+      "episode": 18,
+      "question": "What color is Jwow's dress?",
+      "show": 3
+    }
+  },
+  {
+    "pk": 11,
+    "model": "quiz.question",
+    "fields": {
+      "owner": 1,
+      "episode": 18,
+      "question": "F### you is said many times in this episode. How many?",
+      "show": 3
+    }
+  },
+  {
+    "pk": 12,
+    "model": "quiz.question",
+    "fields": {
+      "owner": 1,
+      "episode": 18,
+      "question": "Ronnie is a big fan of Ed Hardy shirts. What's on the front of the shirt he's wearing in this episode?",
+      "show": 3
+    }
+  },
+  {
+    "pk": 13,
+    "model": "quiz.question",
+    "fields": {
+      "owner": 1,
+      "episode": 18,
+      "question": "What do they have for dinner?",
+      "show": 3
     }
   },
   {
@@ -365,6 +726,246 @@
     }
   },
   {
+    "pk": 13,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 4,
+      "choice": "Linda Snookfield"
+    }
+  },
+  {
+    "pk": 14,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 4,
+      "choice": "Nicole Polizzi"
+    }
+  },
+  {
+    "pk": 15,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 4,
+      "choice": "Denise LaGuardia"
+    }
+  },
+  {
+    "pk": 16,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 5,
+      "choice": "Italy"
+    }
+  },
+  {
+    "pk": 17,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 5,
+      "choice": "Spain"
+    }
+  },
+  {
+    "pk": 18,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 5,
+      "choice": "France"
+    }
+  },
+  {
+    "pk": 19,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 6,
+      "choice": "Pound"
+    }
+  },
+  {
+    "pk": 20,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 6,
+      "choice": "Unit"
+    }
+  },
+  {
+    "pk": 21,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 6,
+      "choice": "Guido"
+    }
+  },
+  {
+    "pk": 22,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 7,
+      "choice": "Went on a date"
+    }
+  },
+  {
+    "pk": 23,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 7,
+      "choice": "Hooked up"
+    }
+  },
+  {
+    "pk": 24,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 7,
+      "choice": "Smoked pot"
+    }
+  },
+  {
+    "pk": 25,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 8,
+      "choice": "Diet Coke"
+    }
+  },
+  {
+    "pk": 26,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 8,
+      "choice": "Red Bull"
+    }
+  },
+  {
+    "pk": 27,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 8,
+      "choice": "Gatorade"
+    }
+  },
+  {
+    "pk": 28,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 9,
+      "choice": "Nike"
+    }
+  },
+  {
+    "pk": 29,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 9,
+      "choice": "Adidas"
+    }
+  },
+  {
+    "pk": 30,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 9,
+      "choice": "Reebok"
+    }
+  },
+  {
+    "pk": 31,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 10,
+      "choice": "Pink"
+    }
+  },
+  {
+    "pk": 32,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 10,
+      "choice": "Green"
+    }
+  },
+  {
+    "pk": 33,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 10,
+      "choice": "Yellow"
+    }
+  },
+  {
+    "pk": 34,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 11,
+      "choice": "9"
+    }
+  },
+  {
+    "pk": 35,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 11,
+      "choice": "15"
+    }
+  },
+  {
+    "pk": 36,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 11,
+      "choice": "21"
+    }
+  },
+  {
+    "pk": 37,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 12,
+      "choice": "Skulls"
+    }
+  },
+  {
+    "pk": 38,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 12,
+      "choice": "Bloody knife"
+    }
+  },
+  {
+    "pk": 39,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 12,
+      "choice": "Heart"
+    }
+  },
+  {
+    "pk": 40,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 13,
+      "choice": "Pizza"
+    }
+  },
+  {
+    "pk": 41,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 13,
+      "choice": "Steak"
+    }
+  },
+  {
+    "pk": 42,
+    "model": "quiz.choice",
+    "fields": {
+      "question": 13,
+      "choice": "Chinese"
+    }
+  },
+  {
     "pk": 1,
     "model": "quiz.answer",
     "fields": {
@@ -386,6 +987,86 @@
     "fields": {
       "question": 3,
       "choice": 11
+    }
+  },
+  {
+    "pk": 4,
+    "model": "quiz.answer",
+    "fields": {
+      "question": 4,
+      "choice": 14
+    }
+  },
+  {
+    "pk": 5,
+    "model": "quiz.answer",
+    "fields": {
+      "question": 5,
+      "choice": 16
+    }
+  },
+  {
+    "pk": 6,
+    "model": "quiz.answer",
+    "fields": {
+      "question": 6,
+      "choice": 20
+    }
+  },
+  {
+    "pk": 7,
+    "model": "quiz.answer",
+    "fields": {
+      "question": 7,
+      "choice": 23
+    }
+  },
+  {
+    "pk": 8,
+    "model": "quiz.answer",
+    "fields": {
+      "question": 8,
+      "choice": 27
+    }
+  },
+  {
+    "pk": 9,
+    "model": "quiz.answer",
+    "fields": {
+      "question": 9,
+      "choice": 29
+    }
+  },
+  {
+    "pk": 10,
+    "model": "quiz.answer",
+    "fields": {
+      "question": 10,
+      "choice": 31
+    }
+  },
+  {
+    "pk": 11,
+    "model": "quiz.answer",
+    "fields": {
+      "question": 11,
+      "choice": 35
+    }
+  },
+  {
+    "pk": 12,
+    "model": "quiz.answer",
+    "fields": {
+      "question": 12,
+      "choice": 37
+    }
+  },
+  {
+    "pk": 13,
+    "model": "quiz.answer",
+    "fields": {
+      "question": 13,
+      "choice": 40
     }
   }
 ]
